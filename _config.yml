@@ -166,6 +166,10 @@ collections:
     output: true
     sort_by: order
 
+  roadmap_posts:
+    output: true
+    permalink: /roadmap/:name/
+
 defaults:
   - scope:
       path: "" # An empty string here means all files in the project
